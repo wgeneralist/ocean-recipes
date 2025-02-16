@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #7f9950;
+}
+
+.homepage {
+    position: relative;
+}
+
+.homepage-img {
+    width: 100%;
+    height: 50%;
+}
+
+.logo {
+    position: absolute;
+    font-family: Montserrat;
+    left: 50px;
+    top: 10px;
+    line-height: 0px;   
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.tagline {
+    color: #7f9950;
+    font-size: 20px;
+}
+
+.favourite {
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 0px 150px;
+    padding: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item {
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    height: auto;
+    width: 300px;
+}
+
+.recipe-des {
+    text-align: center;
+    font-family: Inter;
+}
+
+button {
+    border-radius: 25px;
+    font-family: Montserrat;
+    background-color: #152122;
+    color: white;
+    font-weight: bold;
+    padding: 15px 80px;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    background-color: #152122;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Lacquer;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
